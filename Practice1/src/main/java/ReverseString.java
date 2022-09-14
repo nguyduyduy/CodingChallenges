@@ -1,7 +1,8 @@
 public class ReverseString {
     public static void main(String[] args) {
-        String r = reverse(4,"dawn");
-        System.out.println(r);
+        String s = "colors";
+        int N = s.length();
+        System.out.println(reverse(N, s));
     }
 
     public static String reverse(int N, String s){
