@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class CheckIfArraysAreEqual {
     public static void main(String[] args) {
 
-        int a1[] = {1 ,2 ,3 ,4 ,5, 6};
+        int a1[] = {1 ,2 ,3 ,4 ,5};
         int a2[] = {1 ,2 ,3 ,4 ,5};
 
 /*        Approach 1 using Arrays equals

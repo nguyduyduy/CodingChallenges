@@ -1,6 +1,6 @@
 public class ReverseString {
     public static void main(String[] args) {
-        String s = "colors";
+        String s = "mom";
         int N = s.length();
         System.out.println(reverse(N, s));
     }
@@ -20,11 +20,11 @@ public class ReverseString {
             letters[indexLetters] = s.charAt(i); // Here we are saying that the index in the letters array is equal to the
             // char at index of i
 
-            System.out.println(s.charAt(i));
+//            System.out.println(s.charAt(i));
 
             indexLetters++; // letterIndex will increment after assignment (0...1..2...)
 
-            System.out.println(indexLetters);
+//            System.out.println(indexLetters);
         }
 
         for (int i = 0; i < s.length(); i++){
